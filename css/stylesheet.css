@@ -1,0 +1,63 @@
+html body{
+    margin: 0px;
+    /*background-image: url("/www/images/sky.jpg");*/
+}
+nav ul {
+    padding: 20px;
+}
+nav {
+    background: aliceblue;
+    width: 12rem;
+    margin-left: -8rem;
+}
+
+img {
+    width: 300px;
+    border: 5px solid blue;
+    padding: 7px;
+    box-shadow: 5px -5px 7px skyblue;
+    border-radius: 20px;
+}
+
+article {
+    margin-left: 3rem;
+}
+
+h1 {
+    text-align: center;
+    background: blue;
+    color: white;
+}
+
+h3 {
+    text-shadow: 1px 1px 2px blue;
+}
+
+a:hover {
+    background-color: yellow;
+    font-style: italic;
+}
+
+li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+li:nth-child(even) {
+    background-color: antiquewhite;
+}
+
+nav:hover {
+    margin-left: 0px;
+}
+
+table {
+    border: 1px solid blue;
+    border-collapse: collapse;
+}
+
+td.ing {
+    padding-right: 3rem;
+}
+td.amo {
+    padding-left: 3rem;
+}
